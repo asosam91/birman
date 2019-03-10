@@ -1,2 +1,2 @@
-from .Grafo import *
-from .Mensaje import *
+from .Grafo import Grafo
+from .Mensaje import Mensaje
