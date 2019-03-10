@@ -17,6 +17,9 @@ class Mensaje:
 	def getProceso(self):
 		return self.__proceso
 
+	def enviaMensaje(self):
+		pass
+
 	def __str__(self):
 		self.__Mensaje= []
 		self.__Mensaje.append(self.__proceso)
