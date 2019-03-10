@@ -10,6 +10,7 @@ class Grafo:
 		return self.__proceso
 
  	def update(self, mensaje):
+ 		pass
 
 
 	def __str__(self):
