@@ -14,9 +14,10 @@ class Grafo:
 			if self.__proceso[p] < mensaje[p]:
 				self.__proceso[p] = mensaje[p]  
 
+	def getProceso(self, num):
+		return self.__proceso[num]
+		
 	def __str__(self):
 		return self.__proceso
 
-	def getProceso(self, num):
-		return self.__proceso[num]
 
